@@ -8,23 +8,23 @@
 
 ## Bio
 
-I am a **Software Engineer and Backend Developer** based in Santo Domingo, Dominican Republic. I specialize in building robust logic and scalable infrastructure, with a particular focus on **Python** and **Containerization**.
+I am a **Software Engineer with a Backend and DevOps focus** based in Santo Domingo, Dominican Republic. I specialize in building robust logic, scalable infrastructure and containerized deployments, with a particular focus on **Python** and **Docker**.
 
 Whether I’m optimizing SQL queries or orchestrating multi-container ecosystems, I thrive on turning complex problems into clean, efficient code.
 
 ### About Me
 
-* **Education:** Completing my B.S. in Software Engineering at APEC University; I also hold an Associate's Degree in Software Development (**Cum Laude**) from ITSC.
+* **Education:** Currently pursuing an [**Official Master's Degree in Networks and Cybersecurity (MRC)**](https://www.ceste.es/masteres-oficiales-y-mba/mrc-master-en-redes-y-ciberseguridad/) at CESTE (UWTSD); I hold a B.S. in Software Engineering from APEC University and an Associate's Degree in Software Development (**Cum Laude**) from ITSC.
 * **Achievements:** Represented the Dominican Republic in the **Ibero-American Cyber Security Challenge** in Colombia (OAS).
 * **Certifications:** Harvard University’s **CS50’s Introduction to Computer Science**.
-* **Current Focus:** Level 2 technical support and software patch implementation at Feliz Software Solutions SRL.
+* **Current Focus:** Level 2 IT operations and application support in production environments, while building containerized projects with CI/CD, deepening Linux skills and specializing in networks and cybersecurity.
 
 ## Technical Stack
 
+* **DevOps & Infrastructure:** Docker & Docker Compose, Linux (Debian), Server Management, Reverse Proxy (Caddy), SSL/TLS, CI/CD (GitHub Actions), Git/GitHub.
 * **Languages & Logic:** Python (Flask, FastAPI), C#, PHP, OOP.
 * **Data Architecture:** SQL Server (T-SQL), MySQL, SQLite, Relational Schema Design.
-* **DevOps & Infrastructure:** Docker & Docker Compose, Linux (Debian), Reverse Proxy (Caddy), SSL/TLS, Git/GitHub.
-* **Networking:** RESTful APIs, Networking & Communications, DDNS, MergeFS (Storage Virtualization).
+* **Networking & Security:** RESTful APIs, Networking & Communications, DDNS, MergeFS (Storage Virtualization).
 
 ## Featured Projects
 
@@ -43,3 +43,11 @@ A high-availability home server infrastructure focused on efficiency and securit
 * **Containerization:** Deployed a Debian-based ecosystem using **Docker** for services like Jellyfin and qBittorrent.
 * **Networking & Security:** Implemented **Caddy** as a Reverse Proxy with automatic SSL and **Cloudflare DDNS** to bypass ISP limitations.
 * **Optimization:** Configured **Intel QuickSync** hardware-accelerated transcoding and **MergeFS** for virtual disk pooling.
+
+#### [Wedding Photo Manager](https://github.com/juniornff/wedding-photo-manager)
+
+Web application to manage wedding photos: guests upload, browse and download photos **without signing up**, plus an interactive **Secret Photographer** game (per-table challenges with QR codes) and a full admin panel.
+
+* **Backend:** Engineered with **Python/FastAPI** and async SQLAlchemy, featuring SSE for a live gallery, Google OAuth with anonymous per-device identity, and HEIC-to-JPEG conversion.
+* **Frontend:** Built with **React 19 + Vite + TailwindCSS**, including bulk ZIP downloads and a public live dashboard.
+* **Infrastructure:** Multi-container deployment via **Docker Compose** with CI/CD on **GitHub Actions** and images published to GHCR; tested with **pytest** (174) and **Vitest** (77).
